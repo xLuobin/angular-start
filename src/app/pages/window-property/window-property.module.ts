@@ -1,12 +1,15 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { DetailComponent } from './detail/detail.component';
+import { ListComponent } from './list/list.component';
+import { WindowProperRoutingModule } from './window-property.routing.module';
 
 @NgModule({
     declarations: [
-        DetailComponent
+        DetailComponent,
+        ListComponent
     ],
     imports: [
+        WindowProperRoutingModule
     ],
     providers: []
 })
